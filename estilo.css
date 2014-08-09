@@ -1,0 +1,50 @@
+*{font-family: arial;}
+body{width: 600px;}
+div{border-style: solid;}
+
+div div {
+	border-style: dashed;
+	border-color: green;
+	margin: 5px;
+}
+
+div div div{
+	border-style: dashed;
+	border-color: red;
+	margin:5px;
+}
+
+h1{border-style: dashed;border-color: green;}
+h2{
+	border-style: dashed;
+	border-color: red;
+	margin-left:30px; display:list-item;
+
+}
+
+li{
+	border-style: dotted;
+	border-width: thin;
+	border-color: brown;
+	margin: 3px;
+	/*display: inline-block;*/
+	display: table-cell; 
+	padding:10px;
+
+}
+
+
+ul{
+	display: table;
+}
+
+img {
+	display: block;
+}
+
+
+
+#menu1{
+	display: none;
+}
+
